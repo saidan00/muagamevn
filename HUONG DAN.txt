@@ -1,0 +1,29 @@
+1. bỏ thư mục vào htdocs của xampp
+
+2. truy cập phpmyadmin tạo database tên là muagamevn_new
+
+3. import file muagamevn_new (2).sql trong thư mục database
+
+4. truy cập theo đường dẫn http://localhost/muagamevn-new/web
+
+5. cài đặt như bình thường, tại bước setup database, nhập tên database "muagamevn_new", username và password của phpmyadmin
+
+6. sau đó có thể truy cập trang web bình thường
+
+TÀI KHOẢN ADMIN
+username: admin
+password: admin
+
+THÔNG TIN THANH TOÁN ONEPAY
+
+Thông số tài khoản test cổng thanh toán Nội địa:
+URL Payment: https://mtf.onepay.vn/onecomm-pay/vpc.op
+MerchantID: ONEPAY
+Accesscode: D67342C2
+Hashcode (Tên khác là SECURE_SECRET): A3EFDFABA8653DF2342E8DAC29B51AF0
+
+Thẻ ABB (ABBANK):
+Số thẻ: 9704250000000001
+Tháng/Năm phát hành: 01/13
+Tên: NGUYEN VAN A
+Mã OTP: 123456
