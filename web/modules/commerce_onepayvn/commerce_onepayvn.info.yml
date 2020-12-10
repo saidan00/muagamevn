@@ -1,0 +1,13 @@
+name: 'Commerce OnePAY.VN'
+type: module
+description: 'Provide payment method via OnePAY.VN'
+core: 8.x
+package: 'Commerce'
+dependencies:
+  - commerce:commerce
+  - commerce:commerce_payment
+
+# Information added by Drupal.org packaging script on 2019-08-20
+version: '8.x-1.0-beta1'
+project: 'commerce_onepayvn'
+datestamp: 1566322989

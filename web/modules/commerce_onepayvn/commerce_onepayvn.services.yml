@@ -1,0 +1,8 @@
+services:
+  logger.channel.commerce_onepayvn:
+    parent: logger.channel_base
+    arguments: ['commerce_onepayvn']
+  commerce_onepayvn.domestic:
+    class: Drupal\commerce_onepayvn\OnePay\DomesticVPC
+  commerce_onepayvn.international:
+    class: Drupal\commerce_onepayvn\OnePay\InternationalVPC

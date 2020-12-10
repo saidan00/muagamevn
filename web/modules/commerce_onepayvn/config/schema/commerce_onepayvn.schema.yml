@@ -1,0 +1,15 @@
+commerce_payment.commerce_payment_gateway.plugin.onepayvn_payment:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    service_url:
+      type: string
+      label: 'Virtual Payment Client URL'
+    merchant_id:
+      type: string
+      label: 'Merchant Id'
+    merchant_key:
+      type: string
+      label: 'Merchant AccessCode'
+    secret_key:
+      type: string
+      label: 'Security Secret'
